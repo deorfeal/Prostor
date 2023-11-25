@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Prostor</title>
+    <html lang="ru">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
@@ -90,14 +90,13 @@
         <main class="main">
             <section class="main__heading heading">
                 <div class="container">
-                    <div class="heading__poster heading-poster">
+                    <div class="heading__poster heading-poster heading-poster--coworking">
                         <div class="heading-poster__img">
-                            <img class="heading-poster__img-image" src="images/heading-poster-img-1.png" alt="img">
+                            <img class="heading-poster__img-image" src="images/heading-poster-img-2.png" alt="img">
                         </div>
                         <div class="heading-poster__inner">
                             <h1 class="heading-poster__title">
-                                Не создавайте склад дома <br>
-                                или в офисе
+                                Коворкинг рядом с вашим складом
                             </h1>
                             <p class="heading-poster__text">
                                 Удобное управление заказами 24/7
@@ -201,16 +200,16 @@
                     </div>
                 </div>
             </section>
-            <section class="main__about about">
+            <section class="main__places places">
                 <div class="container">
-                    <div class="about__wrapper">
-                        <div class="about__section section">
-                            <div class="section__titling titling">
+                    <div class="places__wrapper">
+                        <div class="places__section section">
+                            <div class="places__titling titling">
                                 <p class="titling__text">
-                                    когда мы нужны
+                                    рабочие места
                                 </p>
                                 <h2 class="titling__title">
-                                    PROSTOR поможет в самых разных жизненных ситуациях
+                                    На складе есть удобные рабочие места
                                 </h2>
                             </div>
                             <div class="section__arrows arrows">
@@ -223,7 +222,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Когда мы нужны
+                                                Рабочие места
                                             </span>
                                         </a>
                                     </li>
@@ -235,7 +234,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Выбрать склад
+                                                Выбрать коворкинг
                                             </span>
                                         </a>
                                     </li>
@@ -247,55 +246,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
+                                                Отзывы
                                             </span>
                                         </a>
                                     </li>
@@ -314,96 +265,70 @@
                                 </ul>
                             </div>
                         </div>
-                        <div class="about__inner">
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        01
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    Хранение личных вещей
-                                </h3>
-                                <p class="card__text">
-                                    Когда вещей в гардеробе много, а выкидывать жалко
-                                </p>
-                                <img class="card__img" src="images/about-img-1.png" alt="img">
-                            </a>
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        02
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    Для бизнеса
-                                </h3>
-                                <p class="card__text">
-                                    Удобно поставщикам
-                                    для маркетплейсов
-                                </p>
-                                <img class="card__img" src="images/about-img-2.png" alt="img">
-                            </a>
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        03
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    Ремонт
-                                </h3>
-                                <p class="card__text">
-                                    Если затеяли в гостиной ремонт, но диван на кухню не поставишь
-                                </p>
-                                <img class="card__img" src="images/about-img-3.png" alt="img">
-                            </a>
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        04
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    Переезд
-                                </h3>
-                                <p class="card__text">
-                                    Чтобы не тащить
-                                    все вещи разом
-                                </p>
-                                <img class="card__img" src="images/about-img-4.png" alt="img">
-                            </a>
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        05
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    Сезонное
-                                    хранение
-                                </h3>
-                                <p class="card__text">
-                                    Шины, велосипед,
-                                    консервные банки
-                                </p>
-                                <img class="card__img" src="images/about-img-5.png" alt="img">
-                            </a>
-                            <a class="about__card card" href="#">
-                                <p class="card__count">
-                                    <span>
-                                        06
-                                    </span>
-                                </p>
-                                <h3 class="card__title">
-                                    И всё, что угодно
-                                </h3>
-                                <p class="card__text">
-                                    Ваш любимый плюшевый медвежонок, личный дневник, кружка... список можно продолжать
-                                    бесконечно
-                                </p>
-                                <img class="card__img" src="images/about-img-6.png" alt="img">
-                            </a>
+                        <div class="places__inner">
+                            <div class="places__swiper places-swiper swiper">
+                                <div class="swiper-wrapper">
+                                    <div class="places-swiper__slide places-slide swiper-slide">
+                                        <div class="places-slide__inner">
+                                            <div class="places-slide__count">
+                                                01
+                                            </div>
+                                            <h3 class="places-slide__title">
+                                                Смартофисы
+                                            </h3>
+                                        </div>
+                                        <img class="places-slide__img" src="images/places-img-1.jpg" alt="img">
+                                    </div>
+                                    <div class="places-swiper__slide places-slide swiper-slide">
+                                        <div class="places-slide__inner">
+                                            <div class="places-slide__count">
+                                                02
+                                            </div>
+                                            <h3 class="places-slide__title">
+                                                Коворкинги
+                                            </h3>
+                                        </div>
+                                        <img class="places-slide__img" src="images/places-img-2.jpg" alt="img">
+                                    </div>
+                                    <div class="places-swiper__slide places-slide swiper-slide">
+                                        <div class="places-slide__inner">
+                                            <div class="places-slide__count">
+                                                03
+                                            </div>
+                                            <h3 class="places-slide__title">
+                                                Небольшие офисы
+                                            </h3>
+                                        </div>
+                                        <img class="places-slide__img" src="images/places-img-2.jpg" alt="img">
+                                    </div>
+                                    <div class="places-swiper__slide places-slide swiper-slide">
+                                        <div class="places-slide__inner">
+                                            <div class="places-slide__count">
+                                                04
+                                            </div>
+                                            <h3 class="places-slide__title">
+                                                Аренда
+                                                больших помещений
+                                            </h3>
+                                        </div>
+                                        <img class="places-slide__img" src="images/places-img-2.jpg" alt="img">
+                                    </div>
+                                </div>
+                                <div class="places-swiper__prev">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
+                                            stroke="#2B2E34" stroke-width="2" />
+                                    </svg>
+                                </div>
+                                <div class="places-swiper__next">
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
+                                            stroke="#2B2E34" stroke-width="2" />
+                                    </svg>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -417,7 +342,7 @@
                                     Где ближе
                                 </p>
                                 <h2 class="titling__title">
-                                    Выберите ближайший склад
+                                    Склады с коворкингами
                                 </h2>
                             </div>
                             <div class="section__arrows arrows">
@@ -430,7 +355,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Когда мы нужны
+                                                Рабочие места
                                             </span>
                                         </a>
                                     </li>
@@ -442,7 +367,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Выбрать склад
+                                                Выбрать коворкинг
                                             </span>
                                         </a>
                                     </li>
@@ -454,55 +379,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
+                                                Отзывы
                                             </span>
                                         </a>
                                     </li>
@@ -938,1056 +815,6 @@
                     </div>
                 </div>
             </section>
-            <section class="main__steps steps">
-                <div class="container">
-                    <div class="steps__wrapper">
-                        <div class="steps__section section">
-                            <div class="steps__titling titling">
-                                <p class="titling__text">
-                                    КАК АРЕНДОВАТЬ
-                                </p>
-                                <h2 class="titling__title">
-                                    Быстрая аренда – лёгкий заезд.
-                                    Простор в 3 шага!
-                                </h2>
-                            </div>
-                            <div class="section__arrows arrows">
-                                <ul class="arrows__list">
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Когда мы нужны
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбрать склад
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item arrows__list-item--active">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Вопрос/ответ
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="steps__inner">
-                            <div class="steps__swiper steps-swiper swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="steps-swiper__slide steps-slide steps-slide--first swiper-slide">
-                                        <div class="steps-slide__inner">
-                                            <div class="steps-slide__count">
-                                                01
-                                            </div>
-                                            <div class="steps-slide__wrapper">
-                                                <h3 class="steps-slide__title">
-                                                    Заполните форму
-                                                    аренды на сайте
-                                                </h3>
-                                                <p class="steps-slide__text">
-                                                    Воспользуйтесь формой бронирования или позвоните по телефону
-                                                    <a href="tel:+78122070007">
-                                                        +7 (812) 207-00-07
-                                                    </a>
-                                                </p>
-                                                <p class="steps-slide__text">
-                                                    Бесплатная бронь бокса на неделю
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <img class="steps-slide__img" src="images/steps-img-1.png" alt="img">
-                                    </div>
-                                    <div class="steps-swiper__slide steps-slide steps-slide--second swiper-slide">
-                                        <div class="steps-slide__inner">
-                                            <div class="steps-slide__count">
-                                                02
-                                            </div>
-                                            <div class="steps-slide__wrapper">
-                                                <h3 class="steps-slide__title">
-                                                    Вы получите номер бокса, код доступа и договор аренды
-                                                </h3>
-                                                <p class="steps-slide__text">
-                                                    Номер ячейки и код доступа мы отправляем по смс, договор — на
-                                                    электронную почту
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <img class="steps-slide__img" src="images/steps-img-2.png" alt="img">
-                                    </div>
-                                    <div class="steps-swiper__slide steps-slide steps-slide--third swiper-slide">
-                                        <div class="steps-slide__inner">
-                                            <div class="steps-slide__count">
-                                                03
-                                            </div>
-                                            <div class="steps-slide__wrapper">
-                                                <h3 class="steps-slide__title">
-                                                    Приезжайте в удобное время
-                                                </h3>
-                                                <p class="steps-slide__text">
-                                                    По приезде на склад введите код доступа на пин-паде и пройдите к
-                                                    вашему боксу, он уже будет доступен. Склад работает круглосуточно,
-                                                    приезжайте когда удобно
-                                                </p>
-                                            </div>
-                                        </div>
-                                        <img class="steps-slide__img" src="images/steps-img-3.png" alt="img">
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__approach approach">
-                <div class="container">
-                    <div class="approach__wrapper">
-                        <div class="approach__section section">
-                            <div class="section__titling titling">
-                                <p class="titling__text">
-                                    Подход к аренде
-                                </p>
-                                <h2 class="titling__title">
-                                    Для вашего спокойствия и удобства
-                                </h2>
-                                <p class="titling__subtext">
-                                    Аренда боксов в просторе – это удобно
-                                    и полностью безопасно
-                                </p>
-                            </div>
-                            <div class="section__arrows arrows">
-                                <ul class="arrows__list">
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Когда мы нужны
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбрать склад
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item arrows__list-item--active">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Вопрос/ответ
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="approach__inner">
-                            <p class="approach__text">
-                                Простор поможет вам в самых
-                                разнообразных жизненных ситуациях
-                            </p>
-                            <div class="approach__body approach-body">
-                                <a class="approach-body__card approach-card" href="#">
-                                    <h3 class="approach-card__title">
-                                        Доступ к вашим
-                                        вещам 24/7
-                                    </h3>
-                                    <p class="approach-card__text">
-                                        Приходите в любое время дня и ночи, полный контроль над вашими вещами, а ещё у
-                                        нас круглосуточная охрана
-                                    </p>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </a>
-                                <a class="approach-body__card approach-card" href="#">
-                                    <h3 class="approach-card__title">
-                                        Заезд и оплата
-                                        «в три клика»
-                                    </h3>
-                                    <p class="approach-card__text">
-                                        Управляйте процессом в любое время суток и оплачивайте  «в три клика» с телефона
-                                    </p>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </a>
-                                <a class="approach-body__card approach-card approach-card--img" href="#">
-                                    <p class="approach-card__suptext">
-                                        Надёжное хранение
-                                    </p>
-                                    <h3 class="approach-card__title">
-                                        5 степеней безопасности
-                                        для ваших вещей
-                                    </h3>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                    <img class="approach-card__img" src="images/approach-img-1.png" alt="img">
-                                </a>
-                                <a class="approach-body__card approach-card" href="#">
-                                    <h3 class="approach-card__title">
-                                        Любой размер
-                                        бокса от 1м2
-                                    </h3>
-                                    <p class="approach-card__text">
-                                        Объединив несколько боксов,
-                                        вы можете создать для себя склад необходимого размера
-                                    </p>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </a>
-                                <a class="approach-body__card approach-card approach-card--black" href="#">
-                                    <h3 class="approach-card__title">
-                                        Сопутствующие материалы
-                                    </h3>
-                                    <p class="approach-card__text">
-                                        У нас есть все что нужно:
-                                    </p>
-                                    <ul class="approach-card__list">
-                                        <li class="approach-card__list-item">
-                                            коробки
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            перчатки
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            мешки
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            пленка
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            погрузчики
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            инструменты
-                                        </li>
-                                        <li class="approach-card__list-item">
-                                            и прочее
-                                        </li>
-                                    </ul>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                </a>
-                                <a class="approach-body__card approach-card approach-card--img" href="#">
-                                    <p class="approach-card__suptext">
-                                        Что нельзя хранить
-                                    </p>
-                                    <h3 class="approach-card__title">
-                                        Список вещей которые нельзя хранить
-                                        на складе
-                                    </h3>
-                                    <div class="approach-card__plus">
-                                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                            xmlns="http://www.w3.org/2000/svg">
-                                            <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34" stroke-width="2" />
-                                            <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34" stroke-width="2" />
-                                        </svg>
-                                    </div>
-                                    <img class="approach-card__img" src="images/approach-img-2.png" alt="img">
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__history history">
-                <div class="container">
-                    <div class="history__wrapper">
-                        <div class="history__section section">
-                            <div class="history__titling titling">
-                                <p class="titling__text">
-                                    Истории со складов
-                                </p>
-                                <h2 class="titling__title">
-                                    Когда PROSTOR помогает
-                                </h2>
-                            </div>
-                            <div class="section__arrows arrows">
-                                <ul class="arrows__list">
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Когда мы нужны
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбрать склад
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item arrows__list-item--active">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Вопрос/ответ
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="history__inner">
-                            <div class="history__swiper history-swiper swiper">
-                                <div class="swiper-wrapper">
-                                    <div class="history-swiper__slide history-slide swiper-slide" id="0">
-                                        <div class="history-slide__poster">
-                                            <img class="history-slide__img" src="images/history-img-1.jpg" alt="img">
-                                            <button class="history-slide__poster-button" type="button">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                    <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <h3 class="history-slide__title">
-                                            Разгрузили квартиру, чтобы сделать ремонт
-                                        </h3>
-                                        <p class="history-slide__text">
-                                            Андрей и Катя
-                                        </p>
-                                    </div>
-                                    <div class="history-swiper__slide history-slide swiper-slide" id="1">
-                                        <div class="history-slide__poster">
-                                            <img class="history-slide__img" src="images/history-img-2.jpg" alt="img">
-                                            <button class="history-slide__poster-button" type="button">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                    <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <h3 class="history-slide__title">
-                                            Переезд прошел с комфортом и без лишних вещей
-                                        </h3>
-                                        <p class="history-slide__text">
-                                            Алексей
-                                        </p>
-                                    </div>
-                                    <div class="history-swiper__slide history-slide swiper-slide" id="2">
-                                        <div class="history-slide__poster">
-                                            <img class="history-slide__img" src="images/history-img-3.jpg" alt="img">
-                                            <button class="history-slide__poster-button" type="button">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                    <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <h3 class="history-slide__title">
-                                            Разгрузили квартиру, чтобы сделать ремонт
-                                        </h3>
-                                        <p class="history-slide__text">
-                                            Саша
-                                        </p>
-                                    </div>
-                                    <div class="history-swiper__slide history-slide swiper-slide" id="3">
-                                        <div class="history-slide__poster">
-                                            <img class="history-slide__img" src="images/history-img-3.jpg" alt="img">
-                                            <button class="history-slide__poster-button" type="button">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <line x1="12" y1="2" x2="12" y2="22" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                    <line x1="22" y1="12" x2="2" y2="12" stroke="#2B2E34"
-                                                        stroke-width="2" />
-                                                </svg>
-                                            </button>
-                                        </div>
-                                        <h3 class="history-slide__title">
-                                            Разгрузили квартиру, чтобы сделать ремонт
-                                        </h3>
-                                        <p class="history-slide__text">
-                                            Саша
-                                        </p>
-                                    </div>
-                                </div>
-                                <div class="history-swiper__prev">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                            stroke="#2B2E34" stroke-width="2"></path>
-                                    </svg>
-                                </div>
-                                <div class="history-swiper__next">
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                            stroke="#2B2E34" stroke-width="2"></path>
-                                    </svg>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__choice choice">
-                <div class="container">
-                    <div class="choice__wrapper">
-                        <div class="choice__section section">
-                            <div class="choice__titling titling">
-                                <p class="titling__text">
-                                    Выбор бокса
-                                </p>
-                                <h2 class="titling__title">
-                                    Поможем вам определиться
-                                    с размером боксов заранее
-                                </h2>
-                            </div>
-                            <div class="section__arrows arrows">
-                                <ul class="arrows__list">
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Когда мы нужны
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбрать склад
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item arrows__list-item--active">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Вопрос/ответ
-                                            </span>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="choice__inner">
-                            <div class="choice__range choice-range">
-                                <div class="choice-range__top">
-                                    <p class="choice-range__top-text">
-                                        Площадь бокса
-                                    </p>
-                                    <a class="choice-range__top-link" href="#">
-                                        Какая площадь мне нужна?
-                                    </a>
-                                </div>
-                                <div class="choice-range__values" id="slider-values-second">
-
-                                </div>
-                                <div class="choice-range__slider" id="slider-second">
-
-                                </div>
-                                <a class="choice-range__link" href="#">
-                                    Какая площадь мне нужна?
-                                </a>
-                            </div>
-                            <div class="choice__wrap">
-                                <div class="choice__body choice-body">
-                                    <div class="choice-body__adress choice-adress">
-                                        <div class="choice-adress__heading">
-                                            <p class="choice-adress__heading-text">
-                                                <span>
-                                                    Выберите склад
-                                                </span>
-                                            </p>
-                                            <p class="choice-adress__heading-text choice-adress__heading-text--back">
-                                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                    xmlns="http://www.w3.org/2000/svg">
-                                                    <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                        stroke="#8F95A3" stroke-width="2" />
-                                                </svg>
-                                                <span>
-                                                    Назад
-                                                </span>
-                                            </p>
-                                        </div>
-                                        <div class="choice-adress__inner">
-                                            <div class="choice-adress__item" id="0">
-                                                <h3 class="choice-adress__item-title">
-                                                    Московское шоссе, 25к1
-                                                </h3>
-                                                <p class="choice-adress__item-text">
-                                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            fill="#204982">
-                                                        </rect>
-                                                        <path
-                                                            d="M10.1158 9.10404C9.93593 8.46924 9.44766 8.53882 9.11381 8.83448C8.29143 9.62577 7.22063 11.2867 7.90595 13.6782C8.4799 15.7043 10.8681 17 10.8681 17H8.08409C8.08409 17 6.64659 15.3217 6.51809 13.3478C6.35533 10.8522 7.31485 9.27823 8.42849 8.25217C9.47358 7.28695 10.4673 7 10.4673 7L12.5 13.9375L14.5327 7C14.5327 7 15.5264 7.28695 16.5715 8.25217C17.6851 9.27823 18.6447 10.8522 18.4819 13.3478C18.3534 15.3217 16.9159 17 16.9159 17H14.1319C14.1319 17 16.5199 15.7043 17.094 13.6782C17.7794 11.2869 16.7086 9.62604 15.8862 8.83448C15.5521 8.53882 15.0638 8.46924 14.8842 9.10404C14.2674 11.1301 12.5003 16.9353 12.5003 16.9353C12.5003 16.9353 10.7331 11.1282 10.1163 9.10404H10.1158Z"
-                                                            fill="white"></path>
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            stroke="white" stroke-width="2"></rect>
-                                                    </svg>
-                                                    <span>
-                                                        Звёздная
-                                                    </span>
-                                                </p>
-                                                <input class="choice-adress__item-input" type="radio">
-                                            </div>
-                                            <div class="choice-adress__item" id="1">
-                                                <h3 class="choice-adress__item-title">
-                                                    ​Евпаторийский переулок, 7А​
-                                                </h3>
-                                                <p class="choice-adress__item-text">
-                                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            fill="#204982">
-                                                        </rect>
-                                                        <path
-                                                            d="M10.1158 9.10404C9.93593 8.46924 9.44766 8.53882 9.11381 8.83448C8.29143 9.62577 7.22063 11.2867 7.90595 13.6782C8.4799 15.7043 10.8681 17 10.8681 17H8.08409C8.08409 17 6.64659 15.3217 6.51809 13.3478C6.35533 10.8522 7.31485 9.27823 8.42849 8.25217C9.47358 7.28695 10.4673 7 10.4673 7L12.5 13.9375L14.5327 7C14.5327 7 15.5264 7.28695 16.5715 8.25217C17.6851 9.27823 18.6447 10.8522 18.4819 13.3478C18.3534 15.3217 16.9159 17 16.9159 17H14.1319C14.1319 17 16.5199 15.7043 17.094 13.6782C17.7794 11.2869 16.7086 9.62604 15.8862 8.83448C15.5521 8.53882 15.0638 8.46924 14.8842 9.10404C14.2674 11.1301 12.5003 16.9353 12.5003 16.9353C12.5003 16.9353 10.7331 11.1282 10.1163 9.10404H10.1158Z"
-                                                            fill="white"></path>
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            stroke="white" stroke-width="2"></rect>
-                                                    </svg>
-                                                    <span>
-                                                        Выборгская
-                                                    </span>
-                                                </p>
-                                                <input class="choice-adress__item-input" type="radio">
-                                            </div>
-                                            <div class="choice-adress__item" id="2">
-                                                <h3 class="choice-adress__item-title">
-                                                    ​Воронцовский бульвар, 3 к1
-                                                </h3>
-                                                <p class="choice-adress__item-text">
-                                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            fill="#204982">
-                                                        </rect>
-                                                        <path
-                                                            d="M10.1158 9.10404C9.93593 8.46924 9.44766 8.53882 9.11381 8.83448C8.29143 9.62577 7.22063 11.2867 7.90595 13.6782C8.4799 15.7043 10.8681 17 10.8681 17H8.08409C8.08409 17 6.64659 15.3217 6.51809 13.3478C6.35533 10.8522 7.31485 9.27823 8.42849 8.25217C9.47358 7.28695 10.4673 7 10.4673 7L12.5 13.9375L14.5327 7C14.5327 7 15.5264 7.28695 16.5715 8.25217C17.6851 9.27823 18.6447 10.8522 18.4819 13.3478C18.3534 15.3217 16.9159 17 16.9159 17H14.1319C14.1319 17 16.5199 15.7043 17.094 13.6782C17.7794 11.2869 16.7086 9.62604 15.8862 8.83448C15.5521 8.53882 15.0638 8.46924 14.8842 9.10404C14.2674 11.1301 12.5003 16.9353 12.5003 16.9353C12.5003 16.9353 10.7331 11.1282 10.1163 9.10404H10.1158Z"
-                                                            fill="white"></path>
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            stroke="white" stroke-width="2"></rect>
-                                                    </svg>
-                                                    <span>
-                                                        Девяткино
-                                                    </span>
-                                                </p>
-                                                <input class="choice-adress__item-input" type="radio">
-                                            </div>
-                                            <div class="choice-adress__item" id="3">
-                                                <h3 class="choice-adress__item-title">
-                                                    Стародеревенская ул., 11, корп. 2
-                                                </h3>
-                                                <p class="choice-adress__item-text">
-                                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            fill="#204982">
-                                                        </rect>
-                                                        <path
-                                                            d="M10.1158 9.10404C9.93593 8.46924 9.44766 8.53882 9.11381 8.83448C8.29143 9.62577 7.22063 11.2867 7.90595 13.6782C8.4799 15.7043 10.8681 17 10.8681 17H8.08409C8.08409 17 6.64659 15.3217 6.51809 13.3478C6.35533 10.8522 7.31485 9.27823 8.42849 8.25217C9.47358 7.28695 10.4673 7 10.4673 7L12.5 13.9375L14.5327 7C14.5327 7 15.5264 7.28695 16.5715 8.25217C17.6851 9.27823 18.6447 10.8522 18.4819 13.3478C18.3534 15.3217 16.9159 17 16.9159 17H14.1319C14.1319 17 16.5199 15.7043 17.094 13.6782C17.7794 11.2869 16.7086 9.62604 15.8862 8.83448C15.5521 8.53882 15.0638 8.46924 14.8842 9.10404C14.2674 11.1301 12.5003 16.9353 12.5003 16.9353C12.5003 16.9353 10.7331 11.1282 10.1163 9.10404H10.1158Z"
-                                                            fill="white"></path>
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            stroke="white" stroke-width="2"></rect>
-                                                    </svg>
-                                                    <span>
-                                                        Ломоносовская
-                                                    </span>
-                                                </p>
-                                                <input class="choice-adress__item-input" type="radio">
-                                            </div>
-                                            <div class="choice-adress__item" id="4">
-                                                <h3 class="choice-adress__item-title">
-                                                    Московское шоссе, 25к1
-                                                </h3>
-                                                <p class="choice-adress__item-text">
-                                                    <svg width="25" height="24" viewBox="0 0 25 24" fill="none"
-                                                        xmlns="http://www.w3.org/2000/svg">
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            fill="#204982">
-                                                        </rect>
-                                                        <path
-                                                            d="M10.1158 9.10404C9.93593 8.46924 9.44766 8.53882 9.11381 8.83448C8.29143 9.62577 7.22063 11.2867 7.90595 13.6782C8.4799 15.7043 10.8681 17 10.8681 17H8.08409C8.08409 17 6.64659 15.3217 6.51809 13.3478C6.35533 10.8522 7.31485 9.27823 8.42849 8.25217C9.47358 7.28695 10.4673 7 10.4673 7L12.5 13.9375L14.5327 7C14.5327 7 15.5264 7.28695 16.5715 8.25217C17.6851 9.27823 18.6447 10.8522 18.4819 13.3478C18.3534 15.3217 16.9159 17 16.9159 17H14.1319C14.1319 17 16.5199 15.7043 17.094 13.6782C17.7794 11.2869 16.7086 9.62604 15.8862 8.83448C15.5521 8.53882 15.0638 8.46924 14.8842 9.10404C14.2674 11.1301 12.5003 16.9353 12.5003 16.9353C12.5003 16.9353 10.7331 11.1282 10.1163 9.10404H10.1158Z"
-                                                            fill="white"></path>
-                                                        <rect x="1.5" y="1" width="22" height="22" rx="11"
-                                                            stroke="white" stroke-width="2"></rect>
-                                                    </svg>
-                                                    <span>
-                                                        Звёздная
-                                                    </span>
-                                                </p>
-                                                <input class="choice-adress__item-input" type="radio">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="choice-body__office choice-office">
-                                        <div class="choice-office__inner">
-                                            <div class="choice-office__item choice-office-item" id="0">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Локер
-                                                    </div>
-                                                    <div
-                                                        class="choice-office-item__tags-tag choice-office-item__tags-tag--discount">
-                                                        Скидка 50%
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    1 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="1">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="2">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="3">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="4">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="5">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="6">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                            <div class="choice-office__item choice-office-item" id="7">
-                                                <div class="choice-office-item__tags">
-                                                    <div class="choice-office-item__tags-tag">
-                                                        Обычный бокс
-                                                    </div>
-                                                </div>
-                                                <p class="choice-office-item__text">
-                                                    5 м2
-                                                </p>
-                                                <p class="choice-office-item__subtext">
-                                                    10 800 ₽/мес
-                                                </p>
-                                                <input class="choice-office-item__input" type="radio">
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <a class="choice__next-btn next-btn" href="#">
-                                    <span>
-                                        Перейти к оформлению
-                                    </span>
-                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                        xmlns="http://www.w3.org/2000/svg">
-                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667" stroke="#fff"
-                                            stroke-width="2" />
-                                    </svg>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
             <section class="main__recalls recalls">
                 <div class="container">
                     <div class="recalls__wrapper">
@@ -2010,7 +837,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Когда мы нужны
+                                                Рабочие места
                                             </span>
                                         </a>
                                     </li>
@@ -2022,55 +849,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Выбрать склад
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
+                                                Выбрать коворкинг
                                             </span>
                                         </a>
                                     </li>
@@ -2082,7 +861,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Отзывы о нас
+                                                Отзывы
                                             </span>
                                         </a>
                                     </li>
@@ -2374,7 +1153,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Когда мы нужны
+                                                Рабочие места
                                             </span>
                                         </a>
                                     </li>
@@ -2386,7 +1165,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Выбрать склад
+                                                Выбрать коворкинг
                                             </span>
                                         </a>
                                     </li>
@@ -2398,55 +1177,7 @@
                                                     stroke="#2B2E34" stroke-width="2" />
                                             </svg>
                                             <span>
-                                                Как арендовать?
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Подход к аренде
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Истории со складов
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Выбор бокса
-                                            </span>
-                                        </a>
-                                    </li>
-                                    <li class="arrows__list-item">
-                                        <a class="arrows__list-link" href="#">
-                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667"
-                                                    stroke="#2B2E34" stroke-width="2" />
-                                            </svg>
-                                            <span>
-                                                Отзывы о нас
+                                                Отзывы
                                             </span>
                                         </a>
                                     </li>
@@ -2720,146 +1451,6 @@
                     </button>
                 </div>
             </section>
-            <div class="main__popup popup popup--videos">
-                <div class="popup__wrapper">
-                    <button class="popup__close" type="button">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round"
-                                stroke-linejoin="round" />
-                        </svg>
-                    </button>
-                    <div class="popup__videos videos">
-                        <div class="videos__item videos-item" id="0">
-                            <div class="videos-item__person videos-item-person">
-                                <div class="videos-item-person__img">
-                                    <img class="videos-item-person__img-image" src="images/history-img-1.jpg" alt="img">
-                                </div>
-                                <p class="videos-item-person__name">
-                                    Анна Ставропольская
-                                </p>
-                            </div>
-                            <svg class="videos-item__play" width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_b_874_2794)">
-                                    <path
-                                        d="M67.8446 31.9223C70.7928 33.3964 70.7928 37.6036 67.8446 39.0777L5.78885 70.1056C3.12925 71.4354 -3.12542e-06 69.5014 -2.99545e-06 66.5279L-2.82906e-07 4.47214C-1.52929e-07 1.49861 3.12925 -0.435378 5.78886 0.894424L67.8446 31.9223Z"
-                                        fill="white" fill-opacity="0.7" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_b_874_2794" x="-6" y="-5.53308" width="82.0557" height="82.066"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_874_2794" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_874_2794"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                            <video class="videos-item__video" src="videos/video-1.mp4" muted controls
-                                poster="images/video-preview-1.jpg">
-                            </video>
-                        </div>
-                        <div class="videos__item videos-item" id="1">
-                            <div class="videos-item__person videos-item-person">
-                                <div class="videos-item-person__img">
-                                    <img class="videos-item-person__img-image" src="images/history-img-1.jpg" alt="img">
-                                </div>
-                                <p class="videos-item-person__name">
-                                    Анна Ставропольская 2
-                                </p>
-                            </div>
-                            <svg class="videos-item__play" width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_b_874_2794)">
-                                    <path
-                                        d="M67.8446 31.9223C70.7928 33.3964 70.7928 37.6036 67.8446 39.0777L5.78885 70.1056C3.12925 71.4354 -3.12542e-06 69.5014 -2.99545e-06 66.5279L-2.82906e-07 4.47214C-1.52929e-07 1.49861 3.12925 -0.435378 5.78886 0.894424L67.8446 31.9223Z"
-                                        fill="white" fill-opacity="0.7" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_b_874_2794" x="-6" y="-5.53308" width="82.0557" height="82.066"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_874_2794" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_874_2794"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                            <video class="videos-item__video" src="videos/video-1.mp4" muted controls
-                                poster="images/video-preview-1.jpg">
-                            </video>
-                        </div>
-                        <div class="videos__item videos-item" id="2">
-                            <div class="videos-item__person videos-item-person">
-                                <div class="videos-item-person__img">
-                                    <img class="videos-item-person__img-image" src="images/history-img-1.jpg" alt="img">
-                                </div>
-                                <p class="videos-item-person__name">
-                                    Анна Ставропольская 3
-                                </p>
-                            </div>
-                            <svg class="videos-item__play" width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_b_874_2794)">
-                                    <path
-                                        d="M67.8446 31.9223C70.7928 33.3964 70.7928 37.6036 67.8446 39.0777L5.78885 70.1056C3.12925 71.4354 -3.12542e-06 69.5014 -2.99545e-06 66.5279L-2.82906e-07 4.47214C-1.52929e-07 1.49861 3.12925 -0.435378 5.78886 0.894424L67.8446 31.9223Z"
-                                        fill="white" fill-opacity="0.7" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_b_874_2794" x="-6" y="-5.53308" width="82.0557" height="82.066"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_874_2794" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_874_2794"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                            <video class="videos-item__video" src="videos/video-1.mp4" muted controls
-                                poster="images/video-preview-1.jpg">
-                            </video>
-                        </div>
-                        <div class="videos__item videos-item" id="3">
-                            <div class="videos-item__person videos-item-person">
-                                <div class="videos-item-person__img">
-                                    <img class="videos-item-person__img-image" src="images/history-img-1.jpg" alt="img">
-                                </div>
-                                <p class="videos-item-person__name">
-                                    Анна Ставропольская 4
-                                </p>
-                            </div>
-                            <svg class="videos-item__play" width="71" height="71" viewBox="0 0 71 71" fill="none"
-                                xmlns="http://www.w3.org/2000/svg">
-                                <g filter="url(#filter0_b_874_2794)">
-                                    <path
-                                        d="M67.8446 31.9223C70.7928 33.3964 70.7928 37.6036 67.8446 39.0777L5.78885 70.1056C3.12925 71.4354 -3.12542e-06 69.5014 -2.99545e-06 66.5279L-2.82906e-07 4.47214C-1.52929e-07 1.49861 3.12925 -0.435378 5.78886 0.894424L67.8446 31.9223Z"
-                                        fill="white" fill-opacity="0.7" />
-                                </g>
-                                <defs>
-                                    <filter id="filter0_b_874_2794" x="-6" y="-5.53308" width="82.0557" height="82.066"
-                                        filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                        <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                        <feGaussianBlur in="BackgroundImageFix" stdDeviation="3" />
-                                        <feComposite in2="SourceAlpha" operator="in"
-                                            result="effect1_backgroundBlur_874_2794" />
-                                        <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_874_2794"
-                                            result="shape" />
-                                    </filter>
-                                </defs>
-                            </svg>
-                            <video class="videos-item__video" src="videos/video-1.mp4" muted controls
-                                poster="images/video-preview-1.jpg">
-                            </video>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <div class="main__popup popup just--popup">
                 <div class="popup__wrapper">
                     <button class="popup__close" type="button">
