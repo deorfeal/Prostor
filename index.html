@@ -1711,7 +1711,7 @@
                                         Площадь бокса
                                     </p>
                                     <div class="choice-range__top-link">
-                                        Какая площадь мне нужна?
+                                        Какой бокс мне нужен?
                                     </div>
                                 </div>
                                 <div class="choice-range__values" id="slider-values-second">
@@ -2892,6 +2892,44 @@
                     </div>
                 </div>
             </div>
+            <div class="main__popup popup">
+                <div class="popup__wrapper">
+                    <button class="popup__close" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="popup__inner">
+                        <h3 class="popup__title">
+                            Заезд и оплата в три клика
+                        </h3>
+                        <p class="popup__text">
+                            Бронируйте и оплачивайте боксы на сайте. Просматривайте счета, завершайте бронь и
+                            оплачивайте заранее в личном кабинете.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="main__popup popup">
+                <div class="popup__wrapper">
+                    <button class="popup__close" type="button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M18 6L6 18M6 6L18 18" stroke="#fff" stroke-width="2" stroke-linecap="round"
+                                stroke-linejoin="round" />
+                        </svg>
+                    </button>
+                    <div class="popup__inner">
+                        <h3 class="popup__title">
+                            Любой размер бокса от 1 м2
+                        </h3>
+                        <p class="popup__text">
+                            Продумайте, какие вещи вы хотите поместить в бокс, и оцените их общий объем. Администратор
+                            на складе покажет варианты и поможет подобрать подходящий.
+                        </p>
+                    </div>
+                </div>
+            </div>
             <div class="main__popup popup histories--popup">
                 <div class="popup__wrapper">
                     <button class="popup__close" type="button">
@@ -2943,18 +2981,20 @@
                         <form class="call-order__form call-order-form" action="#">
                             <div class="call-order-form__inner">
                                 <input class="call-order-form__input" type="text" placeholder="Имя">
-                                <input class="call-order-form__input" type="tel" placeholder="Номер телефона">
+                                <input class="call-order-form__input tel-input" type="tel" placeholder="Номер телефона">
                             </div>
-                            <button class="call-order-form__next-btn next-btn" type="button">
-                                <span>
-                                    Заказать звонок
-                                </span>
-                                <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667" stroke="#fff"
-                                        stroke-width="2" />
-                                </svg>
-                            </button>
+                            <div class="call-order-form__btn">
+                                <button class="call-order-form__next-btn next-btn" type="button">
+                                    <span>
+                                        Заказать звонок
+                                    </span>
+                                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667" stroke="#fff"
+                                            stroke-width="2" />
+                                    </svg>
+                                </button>
+                            </div>
                         </form>
                         <p class="call-order__subtext">
                             Нажав на кнопку «Заказать звонок»,
@@ -3016,7 +3056,7 @@
                     </div>
                     <nav class="mobile-menu__nav mobile-nav">
                         <ul class="mobile-nav__list">
-                            <li class="mobile-nav__list-item mobile-nav__list-item--active">
+                            <li class="mobile-nav__list-item ">
                                 <a class="mobile-nav__list-link" href="#">
                                     Склады
                                 </a>
@@ -3074,8 +3114,7 @@
                         <span>
                             Арендовать бокс
                         </span>
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
-                            xmlns="http://www.w3.org/2000/svg">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M12 4L12 19M22 10.6667L13.6667 19L10.3333 19L2 10.6667" stroke="#fff"
                                 stroke-width="2" />
                         </svg>
